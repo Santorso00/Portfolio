@@ -1,0 +1,106 @@
+@import 'config';
+
+body {
+  background-image: linear-gradient(to right, #89f7fe, #66a6ff);
+  
+  .navbar-brand {
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: $font-stack;
+  }
+  
+  .nav a:hover {
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    font-size: 20px;
+    font-family: $font-stack;
+  }
+
+  .section1, .section2, .section3, .section4 {
+    height: 800px;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .section1 div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: $font-stack;
+    
+    h1 {
+      font-size: 100px;
+    }
+  
+    h3 {
+      margin-top: 70px;
+    }
+  
+  }
+
+  .container-fluid {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: $font-stack;
+  }
+
+  .section2 h1, .section3 h1, .section4 h1 {
+    margin-bottom: 80px;
+    font-size: 60px;
+  }
+
+  .col-sm-6 {
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+  }
+
+  .progress-bar {
+    color: rgb(1, 11, 13);
+    background-color: #ff9900;
+    font-family: $font-stack;
+  }
+  
+  .section4 {
+    height: 900px;
+  }
+
+  .section4 .row {
+    justify-content: center;
+    
+    img {
+      float: right;
+      padding-right: 15px;
+    }
+
+    p {
+      width: 300px;
+      text-align: justify;
+      margin-top: 20px;
+    }
+
+     
+
+  }
+
+  footer a {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+} 
+

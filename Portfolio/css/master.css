@@ -1,0 +1,108 @@
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#89f7fe), to(#66a6ff));
+  background-image: linear-gradient(to right, #89f7fe, #66a6ff);
+}
+
+body .navbar-brand {
+  margin-left: 30px;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body .nav a:hover {
+  cursor: pointer;
+}
+
+body .nav-link {
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body .section1, body .section2, body .section3, body .section4 {
+  height: 800px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+body .section1 div {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body .section1 div h1 {
+  font-size: 100px;
+}
+
+body .section1 div h3 {
+  margin-top: 70px;
+}
+
+body .container-fluid {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body .section2 h1, body .section3 h1, body .section4 h1 {
+  margin-bottom: 80px;
+  font-size: 60px;
+}
+
+body .col-sm-6 {
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .progress-bar {
+  color: #010b0d;
+  background-color: #ff9900;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body .section4 {
+  height: 900px;
+}
+
+body .section4 .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .section4 .row img {
+  float: right;
+  padding-right: 15px;
+}
+
+body .section4 .row p {
+  width: 300px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+body footer a {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+/*# sourceMappingURL=master.css.map */
